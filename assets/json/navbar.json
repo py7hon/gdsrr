@@ -1,0 +1,33 @@
+{
+  "logo":"<a class=\"brand-logo left\">&nbsp;</a>",
+  "navbar":[
+    {
+      "name":"Home",
+      "cwd":"/",
+      "fa":"home",
+      "link":"http://localhost/",
+      "hide":false
+    },
+    {
+      "name":"Manage Files",
+      "cwd":"/var/www/tnc/manage",
+      "fa":"cloud-upload",
+      "link":"http://localhost/manage/",
+      "hide":false
+    },
+    {
+      "name":"Browse",
+      "cwd":"/browse",
+      "fa":"search",
+      "link":"http://localhost/browse/",
+      "hide":false
+    },
+    {
+      "name":"Profile",
+      "cwd":"/profile",
+      "fa":"user",
+      "link":"http://localhost/profile/",
+      "hide":false
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/ubuntu_mono/UbuntuMono-Regular.eot");
+  src: url("../fonts/ubuntu_mono/UbuntuMono-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu_mono/UbuntuMono-Regular.woff2") format("woff2"), url("../fonts/ubuntu_mono/UbuntuMono-Regular.woff") format("woff"), url("../fonts/ubuntu_mono/UbuntuMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Neou-Bold";
+  src: url("../fonts/neou/Neou-Bold.eot");
+  src: url("../fonts/neou/Neou-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/neou/Neou-Bold.woff2") format("woff2"), url("../fonts/neou/Neou-Bold.woff") format("woff"),  url("../fonts/neou/Neou-Bold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "Neou-Thin";
+  src: url("../fonts/neou/Neou-Thin.eot");
+  src: url("../fonts/neou/Neou-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/neou/Neou-Thin.woff2") format("woff2"), url("../fonts/neou/Neou-Thin.woff") format("woff"),  url("../fonts/neou/Neou-Thin.ttf") format("truetype")
+}
+
+body {
+  max-width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.parallax-container {
+  height: 300px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #272727;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #4D4D4D;
+}
+
+blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.ubuntu {
+  font-family: "Ubuntu", monospace !important;
+}
+
+.neou {
+  font-family: "Neou-Bold" !important;
+}
+
+.preloader {
+  background: #272727;
+  display: inline;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}

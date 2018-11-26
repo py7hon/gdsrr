@@ -1,0 +1,26 @@
+{
+  "title":"",
+  "copyright":"Iqbal Rifai",
+  "description":"Decentralized file sharing, utilizing Google Drive. Built solely for educational purposes; I am not responsible for any files hosted on the site, and as such, I cannot be held accountable for any damage done.",
+  "madewith":"Made with <a class=\"grey-text text-lighten-4\" href=\"http://materializecss.com/\">Materialize</a> and <a class=\"grey-text text-lighten-4\" href=\"http://fontawesome.io/\">FontAwesome</a>",
+  "links":[
+    {
+      "name":"GitHub",
+      "fa":"github",
+      "link":"https://github.com/py7hon/gdsrr",
+      "hide":false
+    },
+    {
+      "name":"Email",
+      "fa":"envelope",
+      "link":"mailto:iqbl@waifu.club",
+      "hide":false
+    },
+    {
+      "name":"Personal Site",
+      "fa":"home",
+      "link":"https://anime.bakaa.me/",
+      "hide":false
+    }
+  ]
+}
